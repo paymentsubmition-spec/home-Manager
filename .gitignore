@@ -1,0 +1,33 @@
+# Dependencies
+vendor/
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/*.log
+*.log
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cache
+.cache/
+*.cache
+
+# Temporary
+tmp/
+temp/
+*.tmp
