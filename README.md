@@ -1,6 +1,6 @@
 # WestSide Smart Property Management System
 
-Enterprise-grade intelligent property and home management platform.
+Enterprise-grade intelligent property and home management platform built with modern technologies.
 
 ## Project Status
 
@@ -37,24 +37,38 @@ Enterprise-grade intelligent property and home management platform.
 └── admin/            # Admin dashboard
 ```
 
+## Features
+
+- Multi-role authentication (7 account types)
+- Role-based access control with custom permissions
+- Property & asset management
+- Task scheduling & assignment
+- GPS verification & location tracking
+- Live worker tracking on maps
+- Task timer & duration tracking
+- Chat & real-time notifications
+- Analytics & reporting
+- Mobile-first PWA
+- Dark/Light mode
+- Responsive design
+
 ## Installation
 
-1. Create the database:
+1. Clone the repository
+2. Create the database:
    ```bash
    mysql -u root -p < database/schema.sql
    ```
-
-2. Configure environment:
+3. Configure environment:
    ```bash
    cp config/.env.example config/.env
    ```
-
-3. Set permissions:
+4. Set permissions:
    ```bash
    chmod 755 uploads/ logs/
    ```
 
-## Security Features
+## Security
 
 - PDO with prepared statements
 - SQL injection prevention
@@ -65,25 +79,6 @@ Enterprise-grade intelligent property and home management platform.
 - Session regeneration
 - JWT authentication
 - Audit logging
-
-## Features
-
-- Multi-role authentication
-- Role-based access control
-- Property & asset management
-- Task scheduling & assignment
-- GPS verification & location tracking
-- Live worker tracking
-- Task timer & duration tracking
-- Chat & notifications
-- Analytics & reporting
-- Mobile-first PWA
-
-## Documentation
-
-- [API Documentation](docs/API.md)
-- [Database Schema](database/schema.sql)
-- [Architecture Guide](docs/ARCHITECTURE.md)
 
 ## License
 
